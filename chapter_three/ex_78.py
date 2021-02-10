@@ -12,5 +12,9 @@ while n > 1:
         print(n, end=' ')
     if n == 1:
         n = int(input('\nEnter a value (0 to end): '))
-        print('Sequence: ', end=' ')
-        print(n, end=' ')
+        if n != 0:
+            print('Sequence: ', end=' ')
+            print(n, end=' ')
+        elif n == 0:
+            print('\nEnd of Program.')
+
