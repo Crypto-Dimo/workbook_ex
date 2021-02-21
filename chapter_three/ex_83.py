@@ -16,7 +16,7 @@ for i in range(1, 99):
 print(f'Te maximum value encountered was {max_num}.')
 print(f'The maximum value was updated {counts} times.')
 
-# Using a list & shuffle to avoid repetition and missing numbers in range 1-100
+# Using lists & shuffle to avoid repetition and missing numbers in range 1-100
 
 num_list = []
 
